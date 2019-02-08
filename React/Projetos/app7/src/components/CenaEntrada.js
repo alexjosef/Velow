@@ -4,8 +4,8 @@ import CampoNumero from './CampoNumero';
 
 export default props => (
   <View style={styles.numeros}>
-    <CampoNumero num={props.num1} />
-    <CampoNumero num={props.num2} />
+    <CampoNumero num={props.num1} atualizaValor={props.atualizaValor} nome='num1' />
+    <CampoNumero num={props.num2} atualizaValor={props.atualizaValor} nome='num2' />
   </View>
 );
 
