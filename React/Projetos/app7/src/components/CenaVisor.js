@@ -7,6 +7,7 @@ export default props => (
       style={styles.txtInput}
       placeholder='Resultado'
       Editable={false}
+      value={props.resultado}
     />
   </View>
 );
