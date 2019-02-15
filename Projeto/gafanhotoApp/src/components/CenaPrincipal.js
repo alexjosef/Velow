@@ -65,5 +65,13 @@ const styles = StyleSheet.create({
   },
   imgBotoes: {
     tintColor: '#cae6df'
+  },
+  txtRecrutadores: {
+    fontSize: 15,
+    color: '#cae6df'
+  },
+  txtGrupos: {
+    fontSize: 15,
+    color: '#cae6df'
   }
 });
